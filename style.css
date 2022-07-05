@@ -24,17 +24,22 @@ h1 {
 .flexible {
     display: flex;
     margin-left: 50px;
+    margin-bottom: 100px;
 
-}
-
-
-.mid-banner {
-    background-image: url(img/);
 }
 
 .half-width img {
     height: 70%;
     padding-right: 100px;
+}
+
+.topimg {
+    width: 50%;
+}
+
+.topimg img {
+    width: 80%;
+
 }
 
 .button-link {
@@ -44,7 +49,18 @@ h1 {
     border: 7px solid coral;
     padding: 10px 30px;
     font-size: 30px;
-    border-radius: 20px;
+    border-radius: 60px;
+}
+
+.half-width a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    border: 7px solid coral;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 60px;
+
 }
 
 .top-margin {
@@ -53,7 +69,9 @@ h1 {
 
 .half-width2 {
     width: 50%;
+    height: 100%;
 }
+
 
 .half-width2 img {
     height: 100%;
@@ -63,11 +81,54 @@ h1 {
 .mid-banner {
     background-image: url(img/7.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 
 }
 
 .flexible2 {
     display: flex;
 
+}
+
+.mid-reci {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.flx3-half {
+    width: 50%;
+    align-content: center;
+    border-radius: 60px;
+    margin: 20px;
+
+}
+
+.flexible3 {
+    display: flex;
+    padding: 10%;
+}
+
+.flx3-half img {
+    width: 80%;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.mid-ri {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.mid-para {
+    font-size: 20px;
+    color: #575757;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.shadow {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
