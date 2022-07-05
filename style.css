@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #575757;
+}
+
+.para1 {
+    font-size: 20px;
+    color: #575757;
+    padding-bottom: 20px;
+}
+
+.orange {
+    color: orange;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.flexible {
+    display: flex;
+    margin-left: 50px;
+
+}
+
+
+.mid-banner {
+    background-image: url(img/);
+}
+
+.half-width img {
+    height: 70%;
+    padding-right: 100px;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    border: 7px solid coral;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.top-margin {
+    margin-top: 100px;
+}
+
+.half-width2 {
+    width: 50%;
+}
+
+.half-width2 img {
+    height: 100%;
+    padding-left: 100px;
+}
+
+.mid-banner {
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.flexible2 {
+    display: flex;
+
+}
